@@ -7,7 +7,7 @@ const App = () => {
   return (
     <>
     <Choices/>
-    <h1 className='flex justify-center items-center text-2xl h-screen bg-red-200'>Home Page</h1>
+    <h1 className='flex justify-center items-center text-2xl h-screen'>Home Page</h1>
     </>
   )
 }
