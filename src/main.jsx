@@ -7,6 +7,7 @@ import './index.css'
 import Props from './Pages/Props.jsx'
 import StateManagement from './Pages/StateManagement.jsx'
 import Login from './Pages/Login.jsx'
+import ProfilePage from './Pages/ProfilePage.jsx'
 
 import {createBrowserRouter, RouterProvider} from 'react-router-dom'
 
@@ -28,6 +29,11 @@ const router = createBrowserRouter([
   {
     path: '/Login',
     element: <Login/>
+  }
+  ,
+  {
+    path: '/ProfilePage',
+    element: <ProfilePage/>
   }
 ])
 
