@@ -6,6 +6,7 @@ import './index.css'
 
 import Props from './Pages/Props.jsx'
 import StateManagement from './Pages/StateManagement.jsx'
+import Login from './Pages/Login.jsx'
 
 import {createBrowserRouter, RouterProvider} from 'react-router-dom'
 
@@ -22,6 +23,11 @@ const router = createBrowserRouter([
   {
     path: '/StateManagement',
     element: <StateManagement/>
+  }
+  ,
+  {
+    path: '/Login',
+    element: <Login/>
   }
 ])
 
